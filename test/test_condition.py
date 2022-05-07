@@ -1,3 +1,6 @@
+from work.task1 import is_nyx
+
+
 def test_condition():
     flag = True
     if flag:
@@ -40,3 +43,7 @@ def test_condition_3():
             print("你输入的数字可以整除 3，但不能整除 2")
         else:
             print("你输入的数字不能整除 2 和 3")
+
+
+def test_is_nyx():
+    is_nyx()

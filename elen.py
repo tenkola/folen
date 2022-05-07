@@ -1,5 +1,5 @@
-from main import mains   #from import从模块到函数
 
-z = mains(2, 3)
-print(z)
 
+dir()
+str = input("请输入：");
+print ("你输入的内容是: ", str)

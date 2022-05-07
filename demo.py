@@ -25,3 +25,5 @@ print(into[1])
 # 字典
 ep = {'name': 'runoob', 'code': 6734, 'dept': 'sales'}
 print(ep['code'])
+
+
