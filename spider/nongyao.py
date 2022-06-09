@@ -4,6 +4,7 @@
 @author: tenkola
 @time: 2022/6/1 15:19
 """
+#请求
 import csv
 
 import requests
@@ -48,7 +49,7 @@ def start_request(page):
 
     return response
 
-
+#解析
 def parse_detail(response):
     doc = pq(response.text)
 
@@ -69,7 +70,7 @@ def parse_detail(response):
 def sink():
     pass
 
-
+#存储
 def write_csv(result):
     path = 'nongyao.csv'
     with open(path, 'a', encoding='utf-8', newline='') as f:
