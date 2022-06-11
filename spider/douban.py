@@ -65,7 +65,7 @@ def write_mysql(result):
 
 
 def main():
-    for i in range(1, 250):
+    for i in range(1, 11):
         response = start_request(i)
         results = parse_detail(response)
         for result in results:
