@@ -64,7 +64,7 @@ def parse_detail(response):
         data['total'] = item('td:eq(4)').text()
         data['endtime'] = item('td:eq(5)').text()
         data['company'] = item('td:eq(6)').text()
-        yield (data)
+        yield data
 
 
 def sink():
