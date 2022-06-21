@@ -1,0 +1,1 @@
+pandoc dev.md -s -o dev.docx
